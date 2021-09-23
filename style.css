@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.main-header{
+    width: 100%;
+    display:inline-block ;
+    background-color: #363e4d;
+    color: white;
+    margin:auto;
+    text-align: center;
+    
+}
+h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2{
+    color: #363e4d;
+}
+p{
+    margin: 0px;
+    text-align: center
+}
+hr{
+    margin: 1em;
+    color: #363e4d ;
+}
+.signup{
+    text-align: center;
+}
+fieldset{
+border-style: none;
+padding: 0px;
+
+}
+
+
+form{
+  
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: white;
+   
+}
+label{
+    font-weight: 700;
+}
+
+label,p{
+    color:#8a97a0;
+   
+}
+input[placeholder="Required"]{
+    text-align: right;
+    font-style: italic;
+}
+
+.contact input, select,textarea {
+    padding: 20px;
+    display:block;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    background-color: #f4f7f8;
+    color: #8a97a0;
+}
+.newsletter input, text {
+    margin-left: 0;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.button {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #4eccb5;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+
