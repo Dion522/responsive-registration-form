@@ -81,7 +81,7 @@ input[placeholder="Required"]{
     background: white;
 }
 #zip{
-    width:30%;
+    width:50%;
 }
 .newsletter p{
     text-align: left;
@@ -118,6 +118,9 @@ input[placeholder="Required"]{
     .contact input, select{
         display: unset;
         width: 60%;
+    }
+    #zip{
+        width: 25%;
     }
 }
 
