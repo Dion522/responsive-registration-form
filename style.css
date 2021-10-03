@@ -16,6 +16,7 @@ body{
     text-align: center;
     
 }
+
 h1{
     padding: 10px;
     font-size: 20px;
@@ -51,6 +52,8 @@ form{
    
 }
 label{
+    display: inline-block;
+    width: 200px;
     font-weight: 700;
 }
 
@@ -63,9 +66,28 @@ input[placeholder="Required"]{
     font-style: italic;
 }
 
-.contact input, select,textarea {
+.contact input, select {
     padding: 20px;
-    display:block;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    background-color: #f4f7f8;
+    color: #8a97a0;
+}
+.contact input:focus, select:focus, #other:focus{
+    background: white;
+}
+#zip{
+    width:30%;
+}
+.newsletter p{
+    text-align: left;
+}
+.newsletter textarea{
+    padding: 20px;
     width: 100%;
     border-radius: 5px;
     margin-top: 1em;
@@ -75,6 +97,7 @@ input[placeholder="Required"]{
     color: #8a97a0;
 }
 .newsletter input, text {
+
     margin-left: 0;
     margin-bottom: 2em;
     margin-top: 1em;
@@ -91,5 +114,11 @@ input[placeholder="Required"]{
     margin-bottom: 1em;
 }
 
+@media  (min-width:768px){
+    .contact input, select{
+        display: unset;
+        width: 60%;
+    }
+}
 
 
