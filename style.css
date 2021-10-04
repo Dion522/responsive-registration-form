@@ -3,6 +3,7 @@
 }
 
 body{
+    
     font-family: 'Merriweather', serif;
     font-weight: 300;
 }
@@ -44,6 +45,10 @@ padding: 0px;
 
 
 form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 50%;
   
     max-width: 600px;
     margin: 10px auto;
